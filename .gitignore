@@ -43,3 +43,9 @@ npm-debug.log
 yarn-error.log
 package-lock.json
 yarn.lock
+
+*.zip
+*.wpress
+wp-content/ai1wm-backups/
+ai1wm-backups/
+cb-bup.zip
