@@ -1,0 +1,45 @@
+# --- WordPress core ---
+/wp-admin/
+/wp-includes/
+/wp-*.php
+/index.php
+/license.txt
+/readme.html
+/xmlrpc.php
+
+# --- wp-content (keep only themes & plugins you develop) ---
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backup/
+/wp-content/backups/
+/wp-content/ai1wm-backups/
+/wp-content/plugins/*/node_modules/
+/wp-content/themes/*/node_modules/
+
+# --- All-in-One WP Migration backups ---
+*.wpress
+ai1wm-backups/
+
+# --- Configuration & sensitive files ---
+wp-config.php
+.htaccess
+.env
+*.log
+*.sql
+*.sql.gz
+
+# --- OS & editor files ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+
+# --- Node & build tools ---
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
